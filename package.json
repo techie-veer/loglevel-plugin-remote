@@ -1,23 +1,25 @@
 {
-  "name": "loglevel-plugin-remote",
+  "name": "loglevel-plugin-remote-custom",
   "description": "A loglevel plugin for sending browser logs to a server",
   "author": {
-    "name": "kutuluk"
+    "name": "techie-veer"
   },
   "keywords": [
-    "loglevel",
-    "plugin"
+      "loglevel",
+      "plugin",
+      "log",
+      "level"
   ],
-  "homepage": "https://github.com/kutuluk/loglevel-plugin-remote",
   "bugs": {
-    "url": "https://github.com/kutuluk/loglevel-plugin-remote/issues"
-  },
+      "url": "https://github.com/techie-veer/loglevel-plugin-remote/issues"
+    },
+  "homepage": "https://github.com/techie-veer/loglevel-plugin-remote#readme",
   "repository": {
-    "type": "git",
-    "url": "git@github.com:kutuluk/loglevel-plugin-remote.git"
-  },
+      "type": "git",
+      "url": "git+https://github.com/techie-veer/loglevel-plugin-remote.git"
+    },
   "license": "MIT",
-  "version": "0.6.8",
+  "version": "0.0.0",
   "main": "./lib/loglevel-plugin-remote",
   "babel": {
     "presets": [
